@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Play:wght@700&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    padding: 0 115px;
+    color: #C4BEB9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 50px;
+    height: 25px;
+    background-color: #C4BEB9;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.first {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#list {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+.hero-section h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #e3deda;
+    font-size: 120px;
+    font-weight: 900;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+
+}
+
+.text-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.text-area p {
+    color: #c3bfbc;
+}
+
+/* position-container */
+
+.position-container {
+    width: 100%;
+    height: 480px;
+   position: relative;
+}
+
+.img-back {
+    width: 90%;
+    height: 465px;
+    background-image:linear-gradient(rgba(242, 241, 238, 0.732), rgba(245, 227, 174, 0.537)), url(./chex.jpg);
+    background-size: cover;
+    border-radius: 0px 300px 300px 0px;
+}
+
+.img-section {
+    width: 150px;
+    height: 150px;
+    background-color: #70CDC5;
+    border-radius: 300px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: absolute;
+    top: -5%;
+    left: 20%;
+    transform: rotate(-10deg);
+}
+
+.img-section h1 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 5PX;
+}
+
+#text-1 {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.globe {
+    width: 150px;
+    height: 150px;
+    background-color: #A5DC74;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -2%;
+    right: 25%;
+}
+
+.black {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.globe i {
+    font-size: 50px;
+    color: #A5DC74;
+    transform: rotate(10deg);
+}
+
+.moon1 {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 300px;   
+}
+
+.moon2 {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 300px
+}
+
+
+.box {
+    width: 200px;
+    height: 110px;
+    background-color: #F57F04;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    bottom: 18%;
+    left: 18%;
+    padding: 5px 10px;
+    transform: rotate(15deg);
+}
+
+.box h1 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.box-1 {
+    width: 200px;
+    height: 110px;
+    background-color: #70CDC5;
+    border-radius: 12px;
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    transform: rotate(-17deg);
+    padding: 5px 15px;
+}
+
+.box-1 h1 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.box-2 {
+    width: 200px;
+    height: 80px;
+    padding: 5px 10px;
+    background-color: rgb(243, 215, 39);
+    border-radius: 5px 5px 5px 0px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transform: rotate(-10deg);
+}
+
+.box-2 h2 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 900;
+}
+
+.person {
+    position: absolute;
+    bottom: 5px;
+    left: 37%;
+}
+
+.person img {
+    width: 87%;
+}
+
+@media (max-width:768px) {
+
+    nav {
+        width: 100%;
+        height: auto;
+        padding: 10px 30px;
+    }
+
+    .first {
+        width: 20%;
+        height: auto;
+        margin-left: 50px;
+    }
+
+    #list {
+        width: 60%;
+        height: auto;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .hero-section h1 {
+        line-height: 100px;
+        margin: 50px 0;
+    }
+
+    .text-area {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .text-area p {
+        margin: 20px 0px ;
+    }
+
+    .position-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-section {
+        width: 110px;
+        height: 110px;
+        padding: 2px 5px;
+    }
+
+    .img-section h1 {
+        font-size: 15px;
+        line-height: 15px;
+        margin-bottom: 5px;
+    }
+
+    .moon1 {
+        width: 10px;
+        height: 10px;
+    }
+
+    .moon2 {
+        width: 10px;
+        height: 10px;
+    }
+
+    .img-section p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .globe {
+        width: 110px;
+        height: 110px;
+        padding: 2px 5px;
+        right: 15%;
+    }
+
+    .black {
+        width: 60px;
+        height: 60px;
+    }
+
+    .black i {
+        font-size: 40px;
+    }
+
+    .box {
+        width: 140px;
+        height: 70px;
+        left: 5%;
+    }
+    
+    .box h1 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+
+    .box-1 {
+        width: 140px;
+        height: 70px;
+    }
+
+    .box-1 h1 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .box-2 {
+        width: 140px;
+        height: 70px;
+        left: 7%;
+    }
+
+    .box-2 h2 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+
+    .img-back {
+        width: 90%;
+        height: 400px;
+    }
+
+    .person {
+        bottom: -10px;
+        right: 30%;
+    }
+
+    .person img {
+        width: 80%;
+}
+}
